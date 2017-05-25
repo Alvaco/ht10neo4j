@@ -32,9 +32,8 @@ public class Principal {
         
         
         Conexion miCon=new Conexion();
-        Paciente e1=new Paciente("Luis","Dr. Douglas",21,"abcde");
-        //Paciente e2=new Paciente("Andres","Douglas",23,"123456");
-        //Hospital r1=new Hospital("El Pilar","zona 15","privado","Dr. Santiago");
+        Paciente e1=new Paciente("Luis","cancer",21);
+        Doctor e2= new Doctor("Dr.Douglas","cirujano", "30080908","Pilar", "2pm"); 
         //miCon.crearHospital(r1);
         //miCon.crearPaciente(e1);
         //miCon.crearPaciente(e2);
